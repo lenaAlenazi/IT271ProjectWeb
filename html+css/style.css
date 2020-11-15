@@ -1,14 +1,26 @@
 
-  h1 {
-  margin-top: 0;
-  margin-bottom: 0.5rem; }
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+  background-image: url("background_image_header.jpg");
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+
 
 .topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #425A70;
+    /*background-color: #425A70;*/
+    background-color: #42706f;
   }
 
 .topnav a {
