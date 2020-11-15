@@ -1,4 +1,12 @@
+#logo{
+  display: inline-block;
+  margin: 20px;
+  float: right;
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
 
+}
 /* Style the header */
 .header {
   padding: 80px;
