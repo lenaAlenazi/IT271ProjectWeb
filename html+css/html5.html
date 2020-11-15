@@ -3,22 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>عبارات متنوعة</title>
-      <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" type="text/css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <form action="/action_page.php">
-    <label for="gsearch"> </label>
-    <input type="SearchInput" class="asearch" name="asearch"  placeholder= "البحث" type="submit" >
-      <i class="fa fa-search"> </i>
-      </form>
-      <ul>
-        <li><a href="html1.html">الرئيسية</a></li>
-        <li><a href="html2.html">اضافة اقتباس </a></li>
-        <li><a href="html3.html">أبيات</a></li>
-        <li><a href="html4.html">حكم</a></li>
-       <li><a href="html5.html">عبارات منوعة</a></li>
-      </ul>
+    <div class="topnav">
+   <a class="active" href="html1.html">الرئيسية</a>
+   <a href="html2.html">اضافة اقتباس </a>
+   <a href="html3.html">أبيات</a>
+   <a href="html4.html">حكم</a>
+   <a href="html5.html">عبارات منوعة</a>
+     <div class="search-container">
+       <form action="/action_page.php">
+         <input type="text" placeholder="البحث" name="search">
+         <button type="submit"><i class="fa fa-search"></i></button>
+       </form>
+     </div>
+   </div>
+
 
       <input type="text" value="Hello World" id="myInput">
       <button onclick="myFunction()">نسخ النص </button>
