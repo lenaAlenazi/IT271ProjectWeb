@@ -6,7 +6,7 @@
     <title>إضافة اقتباس </title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
   </head>
   <body>
     <div class="topnav">
@@ -22,17 +22,20 @@
        </form>
      </div>
    </div>
-
+<center>
+  <form action="../php/page.php" method="post">
     <h1>من فضلك ادخل الاقتباس هنا :</h1>
-    <textarea  rows="10" cols="50" placeholder="مثال:ابدأ يومك بوردك مِن القرآن أولاً، ثم أبشر بالبركة التي ستملأ سائر يومك" required></textarea>
+    <input type="text" name="t1" placeholder="ادخل عنوان الموضوع"><br>
+    <textarea name="t2" rows="10" cols="50" placeholder="مثال:ابدأ يومك بوردك مِن القرآن أولاً، ثم أبشر بالبركة التي ستملأ سائر يومك" required></textarea>
     <p>
-
+<br>
     <label>اختر قسماً:</label>
     <br>
     <input type="radio" name="ch" value="g">ابيات <br>
 <input type="radio" name="ch" value="h">حكم <br>
 <input type="radio" name="ch" value="a">عبارات منوعة <br>
     </p>
-
+    <button type="submit" class="btn" name="submit"> Send</button>
+</form>
   </body>
 </html>
