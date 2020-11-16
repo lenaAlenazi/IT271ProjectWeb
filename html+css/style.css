@@ -20,8 +20,6 @@
   font-size: 40px;
 }
 
-
-
 .topnav {
     list-style-type: none;
     margin: 0;
@@ -92,3 +90,10 @@
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+
+  .main {
+  width: 75%;
+  float: right;
+  padding: 15px;
+  border: 1px solid red;
+}
