@@ -6,7 +6,89 @@
     <title>إضافة اقتباس </title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<style typle="text/css">
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    /*from pixabay.com*/
+    background-image: url("background_image_html2.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    color:white;
+    margin-center:40px;
+  }
+.addQuotes{
+  width: 600px;
+  background-color: rgb(0,0,0,0.6);
+  margin: auto;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius:15px 15px 0px;
+}
+.main{
+  background-color: rgb(0,0,0,0.5);
+  width: 800px;
+  margin: auto;
+}
+form {
+  padding:10px;
+}
+.TopicTitle{
+  position: relative;
+  center: 200px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  width: 40%;
+  height: 30px;
+}
+.TextArea {
+  position: relative;
+  center: 200px;
+  top: -15px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.selectSection{
+  margin: 25px;
+  color: white;
+  font-size:18px;
+}
+.radio{
+  display: inline-block;
+  padding: 60px;
+  font-size: 25px;
+  margin: 10px;
+  color: white;
+}
+.radio input{
+  width: 20px;
+  height: 20px;
+  border-radius: 30%;
+  cursor: pointer;
+  outline: none;
+}
+.button{
+  background-color: #3BAF9F;
+  display: block;
+  margin: 20px 0px 0px 20px ;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition:0.25px;
+}
+</style>
   </head>
   <body>
     <div class="topnav">
@@ -23,21 +105,28 @@
      </div>
    </div>
 <center>
+
+  <div class="main">
   <form action="../php/page.php" method="post">
+    <br>
+    <div class="addQuotes">
     <h1>من فضلك ادخل الاقتباس هنا :</h1>
-    <input type="text" name="t1" placeholder="ادخل عنوان الموضوع"><br>
-    <textarea name="t2" rows="10" cols="50" placeholder="مثال:ابدأ يومك بوردك مِن القرآن أولاً، ثم أبشر بالبركة التي ستملأ سائر يومك" required></textarea>
-<div>    
+    </div>
+    <input class="TopicTitle" type="text" name="t1" placeholder="ادخل عنوان الموضوع"><br>
+    <br>
+    <textarea class="TextArea" name="t2" rows="5" cols="40" placeholder="مثال:ابدأ يومك بوردك مِن القرآن أولاً، ثم أبشر بالبركة التي ستملأ سائر يومك" required></textarea>
+
+<div>
 <p>
 <br>
-    <label>اختر قسماً:</label>
-    <br>
-    <input type="radio" name="ch" value="g">ابيات <br>
-<input type="radio" name="ch" value="h">حكم <br>
-<input type="radio" name="ch" value="a">عبارات منوعة <br>
-    </p>
-    <button type="submit" class="btn" name="submit"> Send</button>
+<label class="selectSection">اختر قسماً:</label>
+<br>
+<input class="radio" type="radio" name="ch" value="g">ابيات<br>
+<input class="radio" type="radio" name="ch" value="h">حكم<br>
+<input class="radio" type="radio" name="ch" value="a">عبارات منوعة<br>
+</p>
+    <button class="button" type="submit" class="btn" name="submit"> Send</button>
 </form>
-</div>
+</div></div>
   </body>
 </html>
