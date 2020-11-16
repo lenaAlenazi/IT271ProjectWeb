@@ -9,15 +9,16 @@
 }
 /* Style the header */
 .header {
-  padding: 80px;
+  padding: 100px;
   text-align: center;
-  color: white;
-  background-image: url("background_image_header.jpg");
+  color:  white;
+  background-image: url("back 1.jpg");
 }
 
 /* Increase the font size of the h1 element */
 .header h1 {
   font-size: 40px;
+  font-family: "Lucida Console", Courier, monospace;
 }
 
 .topnav {
@@ -30,12 +31,13 @@
   }
 
 .topnav a {
-   float: left;
+   float: right;
    display: block;
    color: white;
    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+     font-family: "Lucida Console", Courier, monospace;
   }
 
   /* Change the link color on hover */
@@ -50,7 +52,7 @@
 }
 
 .topnav .search-container {
-  float: right;
+  float: left;
 }
 
 .topnav input[type=text] {
@@ -58,6 +60,7 @@
   margin-top: 8px;
   font-size: 17px;
   border: none;
+  font-family: "Lucida Console", Courier, monospace;
 }
 
 .topnav .search-container button {
@@ -67,6 +70,7 @@
   margin-right: 16px;
   background: #ddd;
   font-size: 17px;
+ font-family: "Lucida Console", Courier, monospace;
   border: none;
   cursor: pointer;
 }
