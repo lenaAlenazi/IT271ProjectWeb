@@ -2,9 +2,9 @@
 .quote{
   display: block;
   text-align: right;
-background-color: green;
+background-color: white;
 width: 300px;
-border: 10px solid black;
+border: 5px solid black;
 float:right;
 padding: 20px;
 margin: 10px;
