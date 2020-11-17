@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 #logo{
   display: inline-block;
   margin: 20px;
@@ -64,10 +69,10 @@
 }
 
 .topnav .search-container button {
-  float: right;
+  float: left;
   padding: 6px 10px;
   margin-top: 8px;
-  margin-right: 16px;
+  margin-right: 0px;
   background: #ddd;
   font-size: 17px;
  font-family: "Lucida Console", Courier, monospace;
