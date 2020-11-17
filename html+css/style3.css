@@ -1,0 +1,11 @@
+
+.quote{
+  display: block;
+  text-align: right;
+background-color: green;
+width: 300px;
+border: 10px solid black;
+float:right;
+padding: 20px;
+margin: 10px;
+}
