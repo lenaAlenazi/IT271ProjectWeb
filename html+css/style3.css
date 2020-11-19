@@ -1,11 +1,28 @@
 
-.quote{
-  display: block;
-  text-align: right;
-background-color: white;
-width: 300px;
-border: 10px solid black;
-float:right;
-padding: 20px;
-margin: 10px;
+.blockquote{
+
+color: #0b4237;
+background:#f8fffe;
+max-width:500px;
+border: 1px solid #b0d2cb;
+padding: 25px;
+margin: 10px 30px;
+box-sizing: border-box;
+}
+.blockquote--bordered{
+  border-right-width: 10px;
+
+}
+.blockquote--text{
+  font-family:italic;
+  font-style: oblique;
+  font-size: 1.15em;
+  line-height: 1.5;
+
+}
+
+.blockquote--text--credit{
+  font-weight: bold;
+  font-style: normal;
+  text-align:left;
 }
