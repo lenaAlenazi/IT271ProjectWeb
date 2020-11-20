@@ -10,42 +10,47 @@
 
   </head>
   <body>
-    <div class="topnav">
-   <a class="active" href="html1.html">الرئيسية</a>
-   <a href="html2.html">اضافة اقتباس </a>
-   <a href="html3.html">أبيات</a>
-   <a href="html4.html">حكم</a>
-   <a href="html5.html">عبارات منوعة</a>
-     <div class="search-container">
-       <form action="/action_page.php">
-         <input type="text" placeholder="البحث" name="search">
-         <button type="submit"><i class="fa fa-search"></i></button>
-       </form>
-     </div>
-   </div>
-<center>
 
-  <div class="main">
-  <form action="../php/page.php" method="post">
-    <br>
-    <div class="addQuotes">
-    <h1>من فضلك ادخل الاقتباس هنا :</h1>
-    </div>
-    <input class="TopicTitle" type="text" name="t1" placeholder="ادخل عنوان الموضوع"><br>
-    <br>
-    <textarea class="TextArea" name="t2" rows="5" cols="40" placeholder="مثال:ابدأ يومك بوردك مِن القرآن أولاً، ثم أبشر بالبركة التي ستملأ سائر يومك" required></textarea>
+        <div class="menu-area">
+          <ul>
+          <li><a class="active" href="html1.html">الرئيسية</a></li>
+          <li><a href="html2.html">اضافة اقتباس </a></li>
+          <li><a href="html3.html">أبيات</a><li>
+          <li><a href="html4.html">حكم</a></li>
+          <li><a href="html5.html">عبارات منوعة</a></li>
+          </ul>
+            <form action="/action_page.php">
+                <input type="text" id="search" placeholder="البحث" name="search">
+                  </form>
 
-<div>
-<p>
-<br>
-<label class="selectSection">اختر قسماً:</label>
-<br>
-<input class="radio" type="radio" name="ch" value="g">ابيات<br>
-<input class="radio" type="radio" name="ch" value="h">حكم<br>
-<input class="radio" type="radio" name="ch" value="a">عبارات منوعة<br>
-</p>
-    <button class="button" type="submit" class="btn" name="submit"> Send</button>
-</form>
-</div></div>
+        </div>
+        <br><br><br>
+
+          <div class="main">
+          <form id="form" action="../php/page.php" method="post">
+            <br>
+            <div class="addQuotes">
+            <h1>من فضلك ادخل الاقتباس هنا </h1>
+            </div>
+            <br>
+            <input class="TopicTitle" type="text" name="t1" placeholder="ادخل عنوان الموضوع"><br>
+            <br>
+            <br>
+            <textarea class="TextArea" name="t2" rows="5" cols="40" placeholder="مثال:ابدأ يومك بوردك مِن القرآن أولاً، ثم أبشر بالبركة التي ستملأ سائر يومك" required></textarea>
+
+        <div>
+        <p>
+        <br>
+        <label class="selectSection">اختر قسماً:</label>
+        <br>
+        <input class="radio" type="radio" name="ch" value="g">ابيات<br>
+        <input class="radio" type="radio" name="ch" value="h">حكم<br>
+        <input class="radio" type="radio" name="ch" value="a">عبارات منوعة<br>
+        </p>
+          <center>
+            <button class="button" type="submit" class="btn" name="submit"> إرسال </button>
+          </center>
+        </form>
+        </div></div>
   </body>
 </html>
