@@ -1,4 +1,4 @@
-<?php
+<?php require 'usertable.php';
 if (isset($_POST['login'])) {
   $uname=$_POST['user'];
   $pass=$_POST['password'];

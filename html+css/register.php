@@ -1,4 +1,4 @@
-<?php
+<?php require 'usertable.php';
 
 
 if (isset($_POST['register'])) {
