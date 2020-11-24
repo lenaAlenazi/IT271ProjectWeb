@@ -12,7 +12,7 @@
   <body>
     <div class="menu-area">
       <ul>
-      <li><a class="active" href="html1.html">الرئيسية</a></li>
+      <li><a class="active" href="html1.php">الرئيسية</a></li>
       <li><a href="html2.html">اضافة اقتباس </a></li>
       <li><a href="html3.html">أبيات</a><li>
       <li><a href="html4.html">حكم</a></li>
@@ -47,13 +47,13 @@
 if (isset($_POST['t1'])&&isset($_POST['t2'])) {
   $t1 =  $_POST['t1'];
   $t2 = $_POST['t2'] ;
-}
+
 
 
     	$query = "INSERT INTO phrases (Title, Word) VALUES ('$t1', '$t2') ";
     	mysqli_query($conn,$query)
     or die( mysqli_connect_error());
-
+}
      $result= mysqli_query($conn, "SELECT * FROM phrases") or die( mysqli_connect_error());
      while($row = mysqli_fetch_array ($result, MYSQLI_ASSOC)){
      	echo "<h2>".$row['Title']."</h2>";
