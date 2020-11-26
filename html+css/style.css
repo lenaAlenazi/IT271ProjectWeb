@@ -57,23 +57,20 @@ float: right;
 background: #111;
 color: white;
 }
-
-.menu-area #search {
-width: 300px;
-padding: 5px;
-border-radius: 25px;
-border: none;
-font-size: 18px;
-text-align:center;
-margin: 8px;
-float: left;
-
-}
-.menu-area #search {
+.menu-area .singinn {
   float: left;
-  cursor: pointer;
+  background-color:  #42706f;
+  display: block;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
 }
-.topnav input[type=text] {
+}
+
+
+.menu-area input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;

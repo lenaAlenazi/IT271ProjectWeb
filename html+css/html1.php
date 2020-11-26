@@ -24,9 +24,7 @@
       <li><a href="html5.html">عبارات منوعة</a></li>
       <li><a href="page.php">اقتباسات الزوار</a></li>
       </ul>
-        <form action="http://www.google.com/search">
-            <input type="text" id="search" placeholder="البحث" name="search">
-              </form>
+          <a class="singinn" href="http://localhost/iT271ProjectWeb/html+css/singin.php" target="_blank"><button class="singinn"> التسجيل </button></a>
 
     </div>
     <br><br><br>
