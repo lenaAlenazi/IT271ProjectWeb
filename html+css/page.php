@@ -19,10 +19,7 @@
       <li><a href="html5.html">عبارات منوعة</a></li>
       <li><a href="page.php">اقتباسات الزوار</a></li>
       </ul>
-        <form action="http://www.google.com/search">
-            <input type="text" id="search" placeholder="البحث" name="search">
-              </form>
-
+      
     </div>
     <br><br><br>
 
