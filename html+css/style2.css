@@ -53,20 +53,6 @@
   color: white;
   font-size:18px;
 }
-.radio{
-  display: inline-block;
-  padding: 60px;
-  font-size: 25px;
-  margin: 10px;
-  color: white;
-}
-.radio input{
-  width: 20px;
-  height: 20px;
-  border-radius: 30%;
-  cursor: pointer;
-  outline: none;
-}
 .button{
   background-color: #3BAF9F;
   display: block;
