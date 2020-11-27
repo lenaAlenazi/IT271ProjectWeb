@@ -9,5 +9,4 @@ mysqli_query($con,"CREATE TABLE IF NOT EXISTS user_info(
   email VARCHAR(40),
  password VARCHAR(30))")
  or die(mysqli_connect_error());
- echo "creeat ";
  ?>
