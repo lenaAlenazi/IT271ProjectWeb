@@ -80,8 +80,123 @@ color: white;
 }
 
 
-  .main {
+  .main1 {
     width: 75%;
     padding: 15px;
     text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+  }
+  .background-image2{
+    /*from pixabay.com*/
+    background-image: url("background_image_html2.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    color:white;
+    margin-top: auto;
+  }
+  .addQuotes{
+    width: 600px;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius:15px 15px 15px 15px;
+  }
+.main{
+  background-color: rgb(0,0,0,0.5);
+  width: 700px;
+  margin: auto;
+
+}
+#form {
+  padding:10px;
+}
+.TopicTitle{
+  position: relative;
+  line-height: 40px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 16px;
+  width: 40%;
+  height: 30px;
+}
+.TextArea {
+  position: relative;
+  top: -15px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 16px;
+  width: 537px;
+  height: 84px;
+}
+.selectSection{
+  margin: 25px;
+  color: white;
+  font-size:18px;
+}
+.button{
+  background-color: #3BAF9F;
+  display: block;
+  margin: 20px 0px 0px 20px ;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+
+}
+.button:hover {
+background-color: #5390F5;
+
+}
+
+.blockquote{
+
+color: #0b4237;
+background:#f8fffe;
+max-width:500px;
+border: 1px solid #b0d2cb;
+padding: 25px;
+margin: 10px 30px;
+box-sizing: border-box;
+}
+.blockquote--bordered{
+  border-right-width: 10px;
+
+}
+.blockquote--text{
+  font-family:italic;
+  font-style: oblique;
+  font-size: 1.15em;
+  line-height: 1.5;
+
+}
+
+.blockquote--text--credit{
+  font-weight: bold;
+  font-style: normal;
+  text-align:left;
+}
+.section{
+  text-align: center;
+  font-weight: bold;
+font-family: 'Aref Ruqaa', serif;
+  color: #2f4f4f;
+ font-size: 50px;
+}
+
+ .background-image3 {
+
+  background-image: url("BACK5.jpg");
+  background-repeat:repeat;
+  background-attachment:fixed;
+
 }

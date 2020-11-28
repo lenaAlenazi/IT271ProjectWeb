@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> اقتباسات الزوار </title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="style3.css" type="text/css">
+
 
   </head>
-  <body>
+  <body class= "background-image3">
     <div class="menu-area">
       <ul>
       <li><a class="active" href="html1.php">الرئيسية</a></li>
@@ -19,7 +19,7 @@
       <li><a href="html5.html">عبارات منوعة</a></li>
       <li><a href="page.php">اقتباسات الزوار</a></li>
       </ul>
-      
+
     </div>
     <br><br><br>
 

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>الرئيسية</title>
 <link rel="stylesheet" href="style.css" type="text/css">
 <img id= "logo" src="image1.jpeg" alt="شعار الموقع">
@@ -30,7 +30,7 @@
     </div>
     <br><br><br>
     <center>
-    <div class="main">
+    <div class="main1">
 
       <h1>معنى اقتباس</h1>
        <p>اقتباس الأفكار أو المعلومات مصطلح دارج في عالم الكتابة والتأليف حيث ظهر فن الكتابة من أجل تدوين الأفكار والمعلومات للاحتفاظ بها وتأريخ كل ما يمر علينا في حياتنا </p>
@@ -45,7 +45,7 @@
 
       $q="SELECT * FROM user_info";
 
-      $result=mysqli_query($con,$q) or die( mysqli_connect_error());;
+      $result=mysqli_query($con,$q) or die( mysqli_connect_error());
       echo "<br/>";echo "<br/>";echo "<br/>";
     echo "<center>"."<h2>أسماء زوار الموقع</h2>"."</center>";
     while($r=mysqli_fetch_array($result,MYSQLI_ASSOC)){
