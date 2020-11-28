@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title></title>
@@ -22,7 +22,7 @@
   <input type="checkbox" class="check-box"><span>تذكر كلمة المرور</span>
   <button type="submit" class="submit-btn">تسجيل دخول</button>
 </form>
-  <form action="register.php"  class="input-group" method="post">
+  <form action="register.php" id="register" class="input-group" method="post">
     <h2>التسجيل </h2>
     <input type="text" class="input-field" name="user" placeholder="اسم المستخدم" required>
     <input type="email" class="input-field" name="email" placeholder="ادخل الايميل" required>
