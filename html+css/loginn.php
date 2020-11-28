@@ -1,6 +1,7 @@
 <?php
-$con = mysqli_connect("localhost","root","","project")
-or die(mysqli_connect_error());
+$con = mysqli_connect('localhost', 'root', '', 'project')
+or die( mysqli_connect_error());
+ //echo "Connected to MySQL<br
 //echo "connect";
 mysqli_select_db($con,"user_info");
 //echo "connect to table";

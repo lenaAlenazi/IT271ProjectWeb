@@ -1,6 +1,7 @@
 <?php
-$con = mysqli_connect("localhost","root","","project")
-or die(mysqli_connect_error());
+$con = mysqli_connect('localhost', 'root', '', 'project')
+or die( mysqli_connect_error());
+ //echo "Connected to MySQL<br
 
 mysqli_query($con,"CREATE TABLE IF NOT EXISTS user_info(
   p_ID INT NOT NULL AUTO_INCREMENT,
