@@ -15,7 +15,7 @@
 <button type="button" class="toggle-btn" onclick="login()">تسجيل دخول</button>
 <button type="button" class="toggle-btn" onclick="register()">تسجيل</button>
         </div>
-<form action="html1.php"  id="login" class="input-group" method="post">
+<form action="loginn.php"  id="login" class="input-group" method="post">
   <h2>تسجيل الدخول </h2>
   <input type="text" class="input-field" name="user" placeholder="اسم المستخدم" required>
   <input type="password" class="input-field" name="password" placeholder=" ادخل كلمة المرور" required>
