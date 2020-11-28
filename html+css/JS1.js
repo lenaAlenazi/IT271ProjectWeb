@@ -7,7 +7,7 @@ count+=1;
 document.getElementById(y).innerHTML = count;
 }else{
 image.src= "likeOff.png";
- if(count!=0){
+ if(count!==0){
    count-=1;
   document.getElementById(y).innerHTML = count;
 }else{document.getElementById(y).innerHTML = count;}
