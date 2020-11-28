@@ -22,16 +22,17 @@
   <input type="checkbox" class="check-box"><span>تذكر كلمة المرور</span>
   <button type="submit" class="submit-btn">تسجيل دخول</button>
 </form>
-  <form action="register.php"  id="register" class="input-group" method="post">
+  <form action="register.php"  class="input-group" method="post">
     <h2>التسجيل </h2>
     <input type="text" class="input-field" name="user" placeholder="اسم المستخدم" required>
     <input type="email" class="input-field" name="email" placeholder="ادخل الايميل" required>
     <input type="password" class="input-field" name="password" placeholder="ادخل كلمة المرور" required>
 
     <button type="submit" class="submit-btn">تسجيل</button>
-    <script src="JS2.js"> </script>
+    </form>
 </div>
 </div>
-</form>
+
+<script src="JS2.js"> </script>
 </body>
 </html>
