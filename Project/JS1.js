@@ -1,4 +1,4 @@
-function likeFunction(x,y){
+function likeFunction(x){
 var image = document.getElementById(x);
 if(image.src.match("likeOff.png")){
 image.src="likOn2.png";
