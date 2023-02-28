@@ -1,7 +1,7 @@
 # IT271 Project Web [ Quote ]
 This is the source codes and files of our web project "َQuote" ,
 we use web languages : HTML , CSS , JavaScript, PHP , DATABASE in this project.
-## Implementation by sudents
+## Implementation by group
 Lena , Bayan , Adiba , Mona ,Salma 
 ### Home page 
 ![Screenshot (68)](https://user-images.githubusercontent.com/73249883/221961260-5bfbcb43-e3a4-4a8d-bcda-4e0aa2988db8.png)
