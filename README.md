@@ -1,4 +1,4 @@
-# IT271 Project Web
+# IT271 Project Web [ Quote ]
 This is the source codes and files of our web project "َQuote"
 
 We use web languages : HTML , CSS , JavaScript, PHP , DATABASE 
