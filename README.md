@@ -1,5 +1,5 @@
 # IT271 Project Web [ Quote ]
-This is the source codes and files of our web project "َQuote" ,
+This is the source codes and files of our web project [ Quote ] ,
 we use web languages : HTML , CSS , JavaScript, PHP , DATABASE in this project.
 ## Implementation by group
 Lena , Bayan , Adiba , Mona ,Salma 
